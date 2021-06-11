@@ -1,9 +1,0 @@
-/home/spg/dev/arco-install/lib/Nginx.DotNet/Nginx.Model/bin/Release/netstandard2.1/Nginx.Model.deps.json
-/home/spg/dev/arco-install/lib/Nginx.DotNet/Nginx.Model/bin/Release/netstandard2.1/Nginx.Model.dll
-/home/spg/dev/arco-install/lib/Nginx.DotNet/Nginx.Model/bin/Release/netstandard2.1/Nginx.Model.pdb
-/home/spg/dev/arco-install/lib/Nginx.DotNet/Nginx.Model/obj/Release/netstandard2.1/Nginx.Model.csproj.AssemblyReference.cache
-/home/spg/dev/arco-install/lib/Nginx.DotNet/Nginx.Model/obj/Release/netstandard2.1/Nginx.Model.AssemblyInfoInputs.cache
-/home/spg/dev/arco-install/lib/Nginx.DotNet/Nginx.Model/obj/Release/netstandard2.1/Nginx.Model.AssemblyInfo.cs
-/home/spg/dev/arco-install/lib/Nginx.DotNet/Nginx.Model/obj/Release/netstandard2.1/Nginx.Model.csproj.CoreCompileInputs.cache
-/home/spg/dev/arco-install/lib/Nginx.DotNet/Nginx.Model/obj/Release/netstandard2.1/Nginx.Model.dll
-/home/spg/dev/arco-install/lib/Nginx.DotNet/Nginx.Model/obj/Release/netstandard2.1/Nginx.Model.pdb
