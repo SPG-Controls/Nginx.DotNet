@@ -1,0 +1,54 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>SPG.Nginx.Test</AssemblyName>    
+    <RootNamespace>SPG.Nginx.Test</RootNamespace>
+    <IsTestProject>true</IsTestProject>
+    
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="alpha.conf" />
+    <None Remove="nginx-pen-test.conf" />
+    <None Remove="nginx.conf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="5.10.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.4.0" />
+    <PackageReference Include="Microsoft.TestPlatform.TestHost" Version="16.4.0" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="xunit.categories" Version="2.0.4" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <DotNetCliToolReference Include="dotnet-xunit" Version="2.4.0-beta.1.build3958" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <EmbeddedResource Include="nginx-pen-test.conf" />
+    <EmbeddedResource Include="alpha.conf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nginx.conf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\System\docker-service\Docker.API\Docker.API.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Service Include="{82a7f48d-3b50-4b1e-b82e-3ada8210c358}" />
+  </ItemGroup>
+
+</Project>

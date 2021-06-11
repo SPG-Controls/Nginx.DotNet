@@ -1,0 +1,4 @@
+/home/spg/dev/arco-install/Installer/obj/Docker/publish/Nginx.Model.dll
+/home/spg/dev/arco-install/Installer/obj/Docker/publish/Nginx.Model.deps.json
+/home/spg/dev/arco-install/Installer/obj/Docker/publish/Nginx.Model.pdb
+/home/spg/dev/arco-install/Installer/obj/Docker/publish/Newtonsoft.Json.dll

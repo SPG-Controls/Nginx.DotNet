@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "IW8oAbC+IL/zevnO+tRn51k1b4W4xyMTa/ROONPcWSCNB1s2G3zpzpxgiMozajhQ21ugGSSYH000qqR85zjKtw==",
+  "success": true,
+  "projectFilePath": "/home/spg/dev/arco-install/lib/Nginx.DotNet/Nginx.Model/Nginx.Model.csproj",
+  "expectedPackageFiles": [
+    "/home/spg/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
